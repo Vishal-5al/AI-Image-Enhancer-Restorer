@@ -1,0 +1,18 @@
+# Dependencies and generated builds
+node_modules/
+client/dist/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Runtime data
+server/data/store.json
+server/public/uploads/
+
+# Logs and local tooling
+*.log
+.vscode/
+.idea/
+.DS_Store

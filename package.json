@@ -1,0 +1,24 @@
+{
+  "name": "ai-image-restoration",
+  "version": "1.0.0",
+  "description": "AI Image Enhancement & Restoration Platform (React.js, Node.js, Express, MongoDB, Hugging Face API)",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "ai",
+    "image-restoration",
+    "super-resolution",
+    "huggingface",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Student Project",
+  "license": "ISC"
+}
